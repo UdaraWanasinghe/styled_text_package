@@ -57,7 +57,7 @@ class CustomTextStyle extends CustomStyle {
   }
 
   @override
-  TextOverflow? get overflow => TextOverflow.clip;
+  TextOverflow? get overflow => style.overflow;
 }
 
 class _Holder<T> {

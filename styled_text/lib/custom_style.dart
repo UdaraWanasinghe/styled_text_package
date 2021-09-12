@@ -247,5 +247,5 @@ class CustomStyle with Diagnosticable implements TextStyle {
   double? get wordSpacing => style.wordSpacing;
 
   @override
-  TextOverflow? get overflow => TextOverflow.clip;
+  TextOverflow? get overflow => style.overflow;
 }
